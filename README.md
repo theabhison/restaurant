@@ -68,5 +68,5 @@ This project was created as part of a **Spring Boot Developer Coding Challenge**
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/restaurant-review-system.git
+https://github.com/theabhison/restaurant.git
 cd restaurant-review-system
