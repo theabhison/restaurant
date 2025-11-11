@@ -35,14 +35,14 @@ public class RestaurantServiceTest {
     void testGetById_Success() {
         Restaurant restaurant = new Restaurant();
         restaurant.setId(1L);
-        restaurant.setName("Spice Garden");
+        restaurant.setName("NO.1King");
 
         when(restaurantRepo.findById(1L)).thenReturn(Optional.of(restaurant));
 
         RestaurantDTO dto = restaurantService.getById(1L);
 
         assertNotNull(dto);
-        assertEquals("Spice Garden", dto.getName());
+        assertEquals("NO.1King", dto.getName());
     }
 
     @Test
